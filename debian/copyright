@@ -1,0 +1,41 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: rime-cangjie
+Source: https://github.com/rime/rime-cangjie
+
+Files: *
+Copyright:
+ GONG Chen <chen.sst@gmail.com>
+ Yu Yuwei <acevery@gmail.com>
+License: LGPL-3
+Comment:
+ Derived from ibus-table by acevery (Yu Yuwei) : (LGPL-2.1+)
+ and based on original work by 朱邦復 / Chu Bong-Foo : (Public Domain)
+   cangjie5.dict.yaml
+ .
+ Gong Chen <chen.sst@gmail.com> : (LGPL)
+   cangjie5*.schema.yaml
+
+Files: debian/*
+Copyright:
+ 2021, Boyuan Yang <byang@debian.org>
+License: CC0-1.0
+
+License: CC0-1.0
+ On Debian systems, the complete text of the Creative Commons Zero v1.0
+ Universal License can be found in "/usr/share/common-licenses/CC0-1.0".
+
+License: LGPL-3
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License, version 3 as published by the Free Software Foundation.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this package; if not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of GNU Library/Lesser General
+ Public License version 3 can be found in "/usr/share/common-licenses/LGPL-3".
